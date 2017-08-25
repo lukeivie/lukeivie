@@ -1,18 +1,16 @@
 import React, { Component } from 'react';
-import logo from '../logo.svg';
-import '../styles/App.css';
+import logo from '../assets/logo.svg';
+import { Button } from 'reactstrap';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
+      <div>
+        <div className="container-fluid bg-black p-5 text-center justify-content-center">
+          <img className="" style={{width: "200px"}} src={logo} alt="luke_ivie_logo" />
+          <h3 className="text-white text-uppercase-title mt-3 mb-0">Luke Ivie</h3>
         </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <p></p>
       </div>
     );
   }

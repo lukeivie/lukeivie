@@ -12,3 +12,11 @@
 .fs-14 {
   font-size: 14px !important;
 }
+
+// text utilities
+.text-uppercase-title {
+  font-family: "Montserrat", $font-stack;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
