@@ -1,0 +1,14 @@
+@import "colors";
+
+// border utilities
+.bb-1-cloud {
+  border-bottom: 1px solid $cloud !important;
+}
+.b-1-cloud {
+  border: 1px solid $cloud !important;
+}
+
+// font size utilities
+.fs-14 {
+  font-size: 14px !important;
+}
