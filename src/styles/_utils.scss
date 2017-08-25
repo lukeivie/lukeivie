@@ -15,8 +15,9 @@
 
 // text utilities
 .text-uppercase-title {
-  font-family: "Montserrat", $font-stack;
-  font-weight: 400;
+  font-family: "Proxima Nova", $font-stack;
+  font-weight: 300;
   text-transform: uppercase;
-  letter-spacing: 5px;
+  letter-spacing: 8px;
+  color: $fog !important;
 }

@@ -1,12 +1,23 @@
 @import "fonts";
 @import "colors";
 @import "color_utils";
+@import "bg_utils";
 @import "utils";
+@import "animate";
 
 body {
   font-family: $font-stack;
+  background: $black;
 }
 
 h1, h2, h3, h4, h5, h6 {
   color: $charcoal;
+}
+
+p {
+  line-height: 1.58;
+}
+
+.yl-logo {
+  animation: breathe 6s infinite;
 }

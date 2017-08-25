@@ -6,11 +6,20 @@ class App extends Component {
   render() {
     return (
       <div>
-        <div className="container-fluid bg-black p-5 text-center justify-content-center">
-          <img className="" style={{width: "200px"}} src={logo} alt="luke_ivie_logo" />
-          <h3 className="text-white text-uppercase-title mt-3 mb-0">Luke Ivie</h3>
+        <div className="container-fluid bg-black text-center justify-content-center fixed-top p-2">
+          <h4 className="text-white text-uppercase-title mb-0">Luke Ivie</h4>
         </div>
-        <p></p>
+        <div className="container-fluid bg-sunset text-center justify-content-center p-5" style={{marginTop: "42px"}}>
+          <img className="yl-logo" style={{width: "100px"}} src={logo} alt="luke_ivie_logo" />
+        </div>
+        <div className="container pt-5">
+          <div className="row">
+            <div className="col-12">
+              <h3 className="text-white"><i className="fa fa-moon-o"></i> Good Evening</h3>
+              <p className="text-pebble">You're on the late night</p>
+            </div>
+          </div>
+        </div>
       </div>
     );
   }
