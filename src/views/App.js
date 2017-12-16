@@ -24,7 +24,7 @@ class App extends Component {
           <div className="row">
             <div className="col-6">
               <h3 className="text-white"><i className="fa fa-moon-o mr-2"></i> Good Evening</h3>
-              <p className="text-pebble">You're on the late night</p>
+              <p className="text-pebble">You're on the late night dude</p>
             </div>
             <div className="col-6">
               <iframe className="mb-3" src="https://open.spotify.com/follow/1/?uri=spotify:artist:33WLsuOJ1Hi5CnsY4a6Wv4&size=detail&theme=dark" width="300" height="56" scrolling="no" frameborder="0" style={{border: "none", overflow: "hidden"}} allowtransparency="true"></iframe>
