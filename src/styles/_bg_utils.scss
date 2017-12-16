@@ -1,7 +1,14 @@
 @import "colors";
 
-.bg-sunset {
-  background: url("https://static.pexels.com/photos/315938/pexels-photo-315938.jpeg") top center no-repeat;
+.bg-stars {
+  background: url("https://images.pexels.com/photos/221387/pexels-photo-221387.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb") bottom center no-repeat;
   background-size: cover;
-  box-shadow: inset 2500px 2500px transparentize($black, 0.5);
+  box-shadow: inset 2500px 2500px transparentize($black, 1);
+}
+
+.bg-pine-blur {
+  background: url("https://cdn.rawgit.com/LukeIvie/tanga-assets/a335029f/assets/pine_blur.jpg") bottom center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  box-shadow: inset 2500px 2500px transparentize($black, 1);
 }

@@ -1,0 +1,12 @@
+.navbar.bg-black {
+  .nav-link.nav-item {
+    color: $pebble;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 300;
+    padding: 10px 20px;
+    &:hover {
+      color: $gray;
+    }
+  }
+}

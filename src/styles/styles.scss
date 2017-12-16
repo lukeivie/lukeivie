@@ -3,6 +3,7 @@
 @import "color_utils";
 @import "bg_utils";
 @import "utils";
+@import "custom";
 @import "animate";
 
 body {
@@ -12,12 +13,22 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   color: $charcoal;
+  font-family: $header-font;
+  font-weight: 600;
 }
 
 p {
+  font-family: $font-stack;
+  font-size: 18px;
   line-height: 1.58;
+  color: $charcoal;
 }
 
 .yl-logo {
-  animation: breathe 6s infinite;
+  animation: breathe 9s infinite;
+}
+
+.post {
+  border-radius: 8px;
+  box-shadow: 0 0 5px 0 transparentize($black, 0.75);
 }

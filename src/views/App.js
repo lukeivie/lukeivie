@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import logo from '../assets/logo.svg';
+import yllogo from '../assets/yl-logo.svg';
 import { Button } from 'reactstrap';
 import SpotifyPlayer from 'react-spotify-player';
 
@@ -13,27 +14,45 @@ const theme = 'black'; // or 'white'
 class App extends Component {
   render() {
     return (
-      <div>
-        <div className="container-fluid bg-black text-center justify-content-center fixed-top p-2">
-          <h4 className="text-white text-uppercase-title mb-0">Luke Ivie</h4>
+      <div className="container-fluid bg-pine-blur px-0 pb-5">
+        <div className="header py-3 bg-black">
+          <h5 className="text-white text-center mb-0 text-uppercase-title" style={{fontWeight: "500"}}>Pine Design</h5>
         </div>
-        <div className="container-fluid bg-carbon text-center justify-content-center p-5" style={{marginTop: "42px"}}>
-          <img className="yl-logo" style={{width: "200px"}} src={logo} alt="luke_ivie_logo" />
-        </div>
-        <div className="container pt-5">
+        <div className="container post bg-white p-4 p-md-5 mt-5">
           <div className="row">
-            <div className="col-6">
-              <h3 className="text-white"><i className="fa fa-moon-o mr-2"></i> Good Evening</h3>
-              <p className="text-pebble">You're on the late night</p>
+            <div className="col-12 col-md-8">
+              <h1 className="mb-1">How To Stay Mindful in a Crazy World</h1>
+              <a href="" className="d-block pb-4">Luke Ivie</a>
+              <p className="">And so I'm offering this simple phrase, to kids from one to ninety-two. Although it's been said, many times, many ways, Merry Christmas, to you!</p>
             </div>
-            <div className="col-6">
-              <iframe className="mb-3" src="https://open.spotify.com/follow/1/?uri=spotify:artist:33WLsuOJ1Hi5CnsY4a6Wv4&size=detail&theme=dark" width="300" height="56" scrolling="no" frameborder="0" style={{border: "none", overflow: "hidden"}} allowtransparency="true"></iframe>
-              <SpotifyPlayer
-                uri="spotify:album:0cAMrlfKVijbdIVd1lnzRv"
-                size={size}
-                view={view}
-                theme={theme}
-              />
+            <div className="col-12 col-md-4">
+              <div className="list-group">
+                <div className="list-group-item p-3  bg-snow">
+                  <h5 className="text-center mb-0 w-100">Recent Posts</h5>
+                </div>
+                <a href="" className="list-group-item">
+                  <p className="mb-0">The Peace and Calm of Life <i className="fa fa-long-arrow-right"></i></p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="container post bg-white p-4 p-md-5 mt-5">
+          <div className="row">
+            <div className="col-12 col-md-8">
+              <h1 className="mb-1">How To Stay Mindful in a Crazy World</h1>
+              <a href="" className="d-block pb-4">Luke Ivie</a>
+              <p className="">And so I'm offering this simple phrase, to kids from one to ninety-two. Although it's been said, many times, many ways, Merry Christmas, to you!</p>
+            </div>
+            <div className="col-12 col-md-4">
+              <div className="list-group">
+                <div className="list-group-item p-3  bg-snow">
+                  <h5 className="text-center mb-0 w-100">Recent Posts</h5>
+                </div>
+                <a href="" className="list-group-item">
+                  <p className="mb-0">The Peace and Calm of Life <i className="fa fa-long-arrow-right"></i></p>
+                </a>
+              </div>
             </div>
           </div>
         </div>
