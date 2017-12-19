@@ -21,6 +21,7 @@
     "start-js": "react-scripts start",
     "start": "npm-run-all -p watch-css start-js",
     "build": "npm run build-css && react-scripts build",
+    "build-and-deploy": "npm run build && s3cmd sync build/* s3://lukeivie.com && echo '🚀  Deployed!'",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }
