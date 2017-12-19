@@ -3,7 +3,6 @@
 @import "color_utils";
 @import "bg_utils";
 @import "utils";
-@import "animate";
 
 body {
   font-family: $font-stack;
@@ -12,10 +11,20 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   color: $charcoal;
+  font-weight: 700;
 }
 
 p {
-  line-height: 1.58;
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+.header {
+  box-shadow: 0 2px 5px 0 transparentize($black, 0.85);
+}
+
+.margin-top {
+  margin-top: 68px;
 }
 
 .yl-logo {

@@ -1,26 +1,18 @@
 import React, { Component } from 'react';
-import logo from '../assets/logo.svg';
 import { Button } from 'reactstrap';
+import liLogoWhite from '../assets/li-logo-white.svg';
 
 class App extends Component {
   render() {
     return (
       <div>
-        <div className="container-fluid bg-black text-center justify-content-center fixed-top p-2">
-          <h4 className="text-white text-uppercase-title mb-0">Luke Ivie</h4>
+        <div className="header container-fluid bg-black d-block text-center justify-content-center fixed-top p-3">
+          <img src={liLogoWhite} alt="" style={{width: "175px"}}/>
         </div>
-        <div className="container-fluid bg-carbon text-center justify-content-center p-5" style={{marginTop: "42px"}}>
-          <img className="yl-logo" style={{width: "200px"}} src={logo} alt="luke_ivie_logo" />
-        </div>
-        <div className="container pt-5">
-          <div className="row">
-            <div className="col-6">
-              <h3 className="text-white"><i className="fa fa-moon-o mr-2"></i> Good Evening</h3>
-              <p className="text-pebble">You're on the late night dude</p>
-            </div>
-            <div className="col-6">
-            </div>
-          </div>
+        <div className="margin-top"></div>
+        <div className="container p-5 bg-carbon bt-1-carbon text-white text-center">
+          <h2 className="text-white mb-0">Under Construction</h2>
+          <p className="mb-1">Coming soon, stay tuned...</p>
         </div>
       </div>
     );
