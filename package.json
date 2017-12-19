@@ -20,8 +20,7 @@
     "watch-css": "npm run build-css && node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/ --watch --recursive",
     "start-js": "react-scripts start",
     "start": "npm-run-all -p watch-css start-js",
-    "build": "npm run build-css && react-scripts build",
-    "build-and-deploy": "npm run build && s3cmd sync build/* s3://lukeivie.com && echo '🚀  Deployed!'",
+    "build": "npm run build-css && react-scripts build && s3cmd sync build/* s3://lukeivie.com",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }
