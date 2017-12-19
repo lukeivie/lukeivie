@@ -1,14 +1,6 @@
 import React, { Component } from 'react';
 import logo from '../assets/logo.svg';
 import { Button } from 'reactstrap';
-import SpotifyPlayer from 'react-spotify-player';
-
-const size = {
-  width: '100%',
-  height: 300,
-};
-const view = 'list'; // or 'coverart'
-const theme = 'black'; // or 'white'
 
 class App extends Component {
   render() {
@@ -27,13 +19,6 @@ class App extends Component {
               <p className="text-pebble">You're on the late night dude</p>
             </div>
             <div className="col-6">
-              <iframe className="mb-3" src="https://open.spotify.com/follow/1/?uri=spotify:artist:33WLsuOJ1Hi5CnsY4a6Wv4&size=detail&theme=dark" width="300" height="56" scrolling="no" frameborder="0" style={{border: "none", overflow: "hidden"}} allowtransparency="true"></iframe>
-              <SpotifyPlayer
-                uri="spotify:album:0cAMrlfKVijbdIVd1lnzRv"
-                size={size}
-                view={view}
-                theme={theme}
-              />
             </div>
           </div>
         </div>
