@@ -4,6 +4,7 @@ import liLogoWhite from '../assets/li-wordmark-white.svg';
 import frontPageBannerDesktop from '../assets/front-page-banner-d.png';
 import frontPageBannerMobile from '../assets/front-page-banner-m.png';
 import coolDayArtwork from '../assets/cool_day_final.jpg';
+import rainyNightArtwork from '../assets/rainy_night_final.jpg';
 
 class App extends Component {
   render() {
@@ -13,14 +14,35 @@ class App extends Component {
           <img className="img-fluid hidden-sm-down" src={frontPageBannerDesktop} alt=""/>
           <img className="img-fluid hidden-md-up" src={frontPageBannerMobile} alt=""/>
         </div>
-        <div className="header container-fluid bg-black d-block text-center justify-content-center p-4 fixed-top">
+        <div className="header container-fluid bg-black d-block text-center justify-content-center p-3 fixed-top">
           <img src={liLogoWhite} alt="" style={{width: "175px"}}/>
         </div>
         <div className="container-fluid px-0 d-block text-white text-center p-3 p-md-5 bg-yl-photo" style={{minHeight: "1000px"}}>
           <div className="margin-top"></div>
           <img className="col-12 col-md-6 mt-md-3 mt-0" src={coolDayArtwork} alt=""/>
           <div className="col-12 col-md-6 mx-auto">
-            <iframe style={{border: "none !important"}} src="https://open.spotify.com/embed?uri=spotify:track:196L0hw2K6YaCOYpE3fIy2" width="100%" height="84" frameborder="0" allowtransparency="true"></iframe>
+            <iframe className="spotify-embed" src="https://open.spotify.com/embed?uri=spotify:track:196L0hw2K6YaCOYpE3fIy2" width="100%" height="84" frameborder="0" allowtransparency="true"></iframe>
+          </div>
+          <div className="col-12 col-md-6 mx-auto mt-3 text-white mb-md-5 mb-3">
+            <a target="_blank" href="https://open.spotify.com/artist/33WLsuOJ1Hi5CnsY4a6Wv4" className="">
+              <i className="fa fa-spotify fa-2x text-white mr-3"></i>
+            </a>
+            <a target="_blank" href="https://www.youtube.com/watch?v=8GBqIXfV5A0" className="">
+              <i className="fa fa-youtube fa-2x text-white mr-3"></i>
+            </a>
+            <a target="_blank" href="https://itunes.apple.com/vn/artist/young-luke/985557790" className="">
+              <i className="fa fa-apple fa-2x text-white mr-3"></i>
+            </a>
+            <a target="_blank" href="https://www.instagram.com/lukeivie/" className="">
+              <i className="fa fa-instagram fa-2x text-white mr-3"></i>
+            </a>
+            <a target="_blank" href="https://twitter.com/YoungLukeMusic" className="">
+              <i className="fa fa-twitter fa-2x text-white"></i>
+            </a>
+          </div>
+          <img className="col-12 col-md-6 mt-md-3 mt-0" src={rainyNightArtwork} alt=""/>
+          <div className="col-12 col-md-6 mx-auto">
+            <iframe className="spotify-embed" src="https://open.spotify.com/embed?uri=spotify:track:4yPRVf6Heyxl8wH2kwbiXR" width="100%" height="84" frameborder="0" allowtransparency="true"></iframe>
           </div>
           <div className="col-12 col-md-6 mx-auto mt-3 text-white">
             <a target="_blank" href="https://open.spotify.com/artist/33WLsuOJ1Hi5CnsY4a6Wv4" className="">
@@ -36,7 +58,7 @@ class App extends Component {
               <i className="fa fa-instagram fa-2x text-white mr-3"></i>
             </a>
             <a target="_blank" href="https://twitter.com/YoungLukeMusic" className="">
-              <i className="fa fa-twitter fa-2x text-white mr-3"></i>
+              <i className="fa fa-twitter fa-2x text-white"></i>
             </a>
           </div>
         </div>

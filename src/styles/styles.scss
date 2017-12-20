@@ -30,3 +30,11 @@ p {
 .yl-logo {
   animation: breathe 6s infinite;
 }
+
+.spotify-embed {
+  border: 0 !important;
+}
+
+.artwork {
+  box-shadow: 0 0 10px 3px transparentize($black, 0.75);
+}
