@@ -6,6 +6,8 @@ import frontPageBannerMobile from '../assets/front-page-banner-m.png';
 import coolDayArtwork from '../assets/cool_day_final.jpg';
 import rainyNightArtwork from '../assets/rainy_night_final.jpg';
 import boundariesArtwork from '../assets/boundaries_final.jpg';
+import timeToMyselfArtwork from '../assets/time_to_myself_final.jpg';
+import betterArtwork from '../assets/better_final.jpg';
 
 class App extends Component {
   render() {
@@ -31,6 +33,14 @@ class App extends Component {
           <img className="col-12 col-md-6 mt-md-3 mt-0" src={boundariesArtwork} alt=""/>
           <div className="col-12 col-md-6 mx-auto mb-5">
             <iframe className="spotify-embed" src="https://open.spotify.com/embed?uri=spotify:track:5yaklLmEBTsV36GAK6to8v" width="100%" height="84" frameborder="0" allowtransparency="true"></iframe>
+          </div>
+          <img className="col-12 col-md-6 mt-md-3 mt-0" src={timeToMyselfArtwork} alt=""/>
+          <div className="col-12 col-md-6 mx-auto mb-5">
+            <iframe className="spotify-embed" src="https://open.spotify.com/embed?uri=spotify:track:4X9jAwqVCdPAFEUWgI1KVf" width="100%" height="84" frameborder="0" allowtransparency="true"></iframe>
+          </div>
+          <img className="col-12 col-md-6 mt-md-3 mt-0" src={betterArtwork} alt=""/>
+          <div className="col-12 col-md-6 mx-auto mb-5">
+            <iframe className="spotify-embed" src="https://open.spotify.com/embed?uri=spotify:track:5syKrTHgdtUD5dZ9HYegze" width="100%" height="84" frameborder="0" allowtransparency="true"></iframe>
           </div>
           <div className="col-12 col-md-6 mx-auto text-white my-5 pt-5">
             <a target="_blank" href="https://open.spotify.com/artist/33WLsuOJ1Hi5CnsY4a6Wv4" className="">
