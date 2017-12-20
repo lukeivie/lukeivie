@@ -24,20 +24,20 @@ class App extends Component {
         <div className="container-fluid px-0 d-block text-white text-center px-3 py-0 bg-yl-photo" style={{minHeight: "1000px"}}>
           <div className="margin-top"></div>
           <div className="col-12 col-md-6 mx-auto text-white py-5">
-            <a target="_blank" href="https://open.spotify.com/artist/33WLsuOJ1Hi5CnsY4a6Wv4" className="">
-              <i className="fa fa-spotify fa-2x text-white mr-3"></i>
+            <a target="_blank" href="https://open.spotify.com/artist/33WLsuOJ1Hi5CnsY4a6Wv4" className="social-link">
+              <i className="fa fa-spotify fa-2x mr-3"></i>
             </a>
-            <a target="_blank" href="https://www.youtube.com/watch?v=8GBqIXfV5A0" className="">
-              <i className="fa fa-youtube fa-2x text-white mr-3"></i>
+            <a target="_blank" href="https://www.youtube.com/watch?v=8GBqIXfV5A0" className="social-link">
+              <i className="fa fa-youtube fa-2x mr-3"></i>
             </a>
-            <a target="_blank" href="https://itunes.apple.com/vn/artist/young-luke/985557790" className="">
-              <i className="fa fa-apple fa-2x text-white mr-3"></i>
+            <a target="_blank" href="https://itunes.apple.com/vn/artist/young-luke/985557790" className="social-link">
+              <i className="fa fa-apple fa-2x mr-3"></i>
             </a>
-            <a target="_blank" href="https://www.instagram.com/lukeivie/" className="">
-              <i className="fa fa-instagram fa-2x text-white mr-3"></i>
+            <a target="_blank" href="https://www.instagram.com/lukeivie/" className="social-link">
+              <i className="fa fa-instagram fa-2x mr-3"></i>
             </a>
-            <a target="_blank" href="https://twitter.com/YoungLukeMusic" className="">
-              <i className="fa fa-twitter fa-2x text-white"></i>
+            <a target="_blank" href="https://twitter.com/YoungLukeMusic" className="social-link">
+              <i className="fa fa-twitter fa-2x"></i>
             </a>
           </div>
           <img className="col-12 col-md-6" src={coolDayArtwork} alt=""/>

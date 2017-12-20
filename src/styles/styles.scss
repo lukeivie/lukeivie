@@ -38,3 +38,13 @@ p {
 .artwork {
   box-shadow: 0 0 10px 3px transparentize($black, 0.75);
 }
+
+.social-link {
+  color: $white;
+  &:hover {
+    color: $cloud;
+  }
+  &:active, &.active, &:focus {
+    color: $gray;
+  }
+}
