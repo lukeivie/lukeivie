@@ -21,9 +21,9 @@ class App extends Component {
         <div className="header container-fluid bg-black d-block text-center justify-content-center p-3 fixed-top">
           <img src={liLogoWhite} alt="" style={{width: "175px"}}/>
         </div>
-        <div className="container-fluid px-0 d-block text-white text-center px-3 py-0 p-md-5 bg-yl-photo" style={{minHeight: "1000px"}}>
+        <div className="container-fluid px-0 d-block text-white text-center px-3 py-0 bg-yl-photo" style={{minHeight: "1000px"}}>
           <div className="margin-top"></div>
-          <div className="col-12 col-md-6 mx-auto text-white my-5 pt-5">
+          <div className="col-12 col-md-6 mx-auto text-white py-5">
             <a target="_blank" href="https://open.spotify.com/artist/33WLsuOJ1Hi5CnsY4a6Wv4" className="">
               <i className="fa fa-spotify fa-2x text-white mr-3"></i>
             </a>
@@ -40,27 +40,27 @@ class App extends Component {
               <i className="fa fa-twitter fa-2x text-white"></i>
             </a>
           </div>
-          <img className="col-12 col-md-6 mt-md-3 mt-0" src={coolDayArtwork} alt=""/>
+          <img className="col-12 col-md-6" src={coolDayArtwork} alt=""/>
           <div className="col-12 col-md-6 mx-auto mb-5">
             <iframe className="spotify-embed" src="https://open.spotify.com/embed?uri=spotify:track:196L0hw2K6YaCOYpE3fIy2" width="100%" height="84" frameborder="0" allowtransparency="true"></iframe>
           </div>
-          <img className="col-12 col-md-6 mt-md-3 mt-0" src={rainyNightArtwork} alt=""/>
+          <img className="col-12 col-md-6" src={rainyNightArtwork} alt=""/>
           <div className="col-12 col-md-6 mx-auto mb-5">
             <iframe className="spotify-embed" src="https://open.spotify.com/embed?uri=spotify:track:4yPRVf6Heyxl8wH2kwbiXR" width="100%" height="84" frameborder="0" allowtransparency="true"></iframe>
           </div>
-          <img className="col-12 col-md-6 mt-md-3 mt-0" src={boundariesArtwork} alt=""/>
+          <img className="col-12 col-md-6" src={boundariesArtwork} alt=""/>
           <div className="col-12 col-md-6 mx-auto mb-5">
             <iframe className="spotify-embed" src="https://open.spotify.com/embed?uri=spotify:track:5yaklLmEBTsV36GAK6to8v" width="100%" height="84" frameborder="0" allowtransparency="true"></iframe>
           </div>
-          <img className="col-12 col-md-6 mt-md-3 mt-0" src={timeToMyselfArtwork} alt=""/>
+          <img className="col-12 col-md-6" src={timeToMyselfArtwork} alt=""/>
           <div className="col-12 col-md-6 mx-auto mb-5">
             <iframe className="spotify-embed" src="https://open.spotify.com/embed?uri=spotify:track:4X9jAwqVCdPAFEUWgI1KVf" width="100%" height="84" frameborder="0" allowtransparency="true"></iframe>
           </div>
-          <img className="col-12 col-md-6 mt-md-3 mt-0" src={betterArtwork} alt=""/>
+          <img className="col-12 col-md-6" src={betterArtwork} alt=""/>
           <div className="col-12 col-md-6 mx-auto mb-5">
             <iframe className="spotify-embed" src="https://open.spotify.com/embed?uri=spotify:track:5syKrTHgdtUD5dZ9HYegze" width="100%" height="84" frameborder="0" allowtransparency="true"></iframe>
           </div>
-          <img className="col-12 col-md-6 mt-md-3 mt-0" src={youngLukeArtwork} alt=""/>
+          <img className="col-12 col-md-6" src={youngLukeArtwork} alt=""/>
           <div className="col-12 col-md-6 mx-auto mb-5">
             <iframe className="spotify-embed" src="https://open.spotify.com/embed?uri=spotify:album:0cAMrlfKVijbdIVd1lnzRv" width="100%" height="300" frameborder="0" allowtransparency="true"></iframe>
           </div>
