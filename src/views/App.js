@@ -10,7 +10,7 @@ class App extends Component {
           <img src={liLogoWhite} alt="" style={{width: "175px"}}/>
         </div>
         <div className="margin-top"></div>
-        <div className="container p-5 bg-carbon bt-1-carbon text-white text-center">
+        <div className="container-fluid p-5 bg-carbon bt-1-carbon text-white text-center">
           <h2 className="text-white mb-0">Under Construction</h2>
           <p className="mb-1">Coming soon, stay tuned...</p>
         </div>
