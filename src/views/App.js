@@ -23,9 +23,12 @@ class App extends Component {
         </div>
         <div className="container-fluid px-0 d-block text-white text-center px-3 py-0 bg-yl-photo" style={{minHeight: "1000px"}}>
           <div className="margin-top"></div>
-          <div className="col-12 col-md-6 mx-auto text-white py-5">
+          <div className="col-12 col-md-6 mx-auto text-white py-5 px-0">
             <a target="_blank" href="https://open.spotify.com/artist/33WLsuOJ1Hi5CnsY4a6Wv4" className="social-link">
               <i className="fa fa-spotify fa-2x mr-3"></i>
+            </a>
+            <a target="_blank" href="https://soundcloud.com/younglukemusic" className="social-link">
+              <i className="fa fa-soundcloud fa-2x mr-3"></i>
             </a>
             <a target="_blank" href="https://www.youtube.com/watch?v=8GBqIXfV5A0" className="social-link">
               <i className="fa fa-youtube fa-2x mr-3"></i>
