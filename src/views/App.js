@@ -14,12 +14,12 @@ class App extends Component {
   render() {
     return (
       <div>
-        <div className="container-fluid px-0 d-block text-white text-center">
+        <div className="header container-fluid bg-black d-block text-center justify-content-center p-3 fixed-top">
+          <a href="/"><img src={liLogoWhite} alt="" style={{width: "175px"}}/></a>
+        </div>
+        <div className="container-fluid px-0 d-block text-white text-center pb-0">
           <img className="img-fluid hidden-sm-down" src={frontPageBannerDesktop} alt=""/>
           <img className="img-fluid hidden-md-up" src={frontPageBannerMobile} alt=""/>
-        </div>
-        <div className="header container-fluid bg-black d-block text-center justify-content-center p-3 fixed-top">
-          <img src={liLogoWhite} alt="" style={{width: "175px"}}/>
         </div>
         <div className="container-fluid px-0 d-block text-white text-center px-3 py-0 bg-yl-photo" style={{minHeight: "1000px"}}>
           <div className="margin-top"></div>
