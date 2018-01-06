@@ -18,6 +18,9 @@
 .fs-16 {
   font-size: 16px !important;
 }
+.fs-24 {
+  font-size: 24px !important;
+}
 
 // font weight utilities
 .fw-4 {
@@ -25,6 +28,30 @@
 }
 .fw-6 {
   font-weight: 600 !important;
+}
+.fw-7 {
+  font-weight: 700 !important;
+}
+.fw-9 {
+  font-weight: 900 !important;
+}
+
+// text utilities
+.text-italic {
+  font-style: italic !important;
+}
+
+// letter spacing utilities
+.ls-1 {
+  letter-spacing: 1px;
+}
+.ls-2 {
+  letter-spacing: 2px;
+}
+
+// overflow utilities
+.o-hidden {
+  overflow: hidden;
 }
 
 // text utilities
