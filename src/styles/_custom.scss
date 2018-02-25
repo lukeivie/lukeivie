@@ -1,0 +1,16 @@
+@import "colors";
+@import "fonts";
+
+.btn {
+  font-family: $font-stack;
+  border: none !important;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.btn-primary {
+  background: $purple;
+  &:hover, &:active, &.active, &:focus, &.focus {
+    background: $purple;
+  }
+}

@@ -1,6 +1,6 @@
 @import "colors";
 
-// shades background color utilities
+// shades background color
 .bg-black {
   background: $black !important;
 }
@@ -29,7 +29,7 @@
   background: $white !important;
 }
 
-// shade text color utilities
+// shade text color
 .text-black {
   color: $black !important;
 }
@@ -56,4 +56,15 @@
 }
 .text-white {
   color: $white !important;
+}
+
+// white text opacity
+.text-white-25 {
+  color: transparentize($white, 0.75);
+}
+.text-white-50 {
+  color: transparentize($white, 0.5);
+}
+.text-white-75 {
+  color: transparentize($white, 0.25);
 }

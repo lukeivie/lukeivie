@@ -1,2 +1,93 @@
+// diagonal
+@font-face {
+  font-family: 'Nimbus Sans Diagonal';
+  font-style: italic;
+  font-weight: 900;
+  src: url('../fonts/NimbusSansDiagDOT-Reg.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/NimbusSansDiagDOT-Reg.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/NimbusSansDiagDOT-Reg.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/NimbusSansDiagDOT-Reg.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/NimbusSansDiagDOT-Reg.otf') format('opentype'), /* Safari, Android, iOS */
+       url('../fonts/NimbusSansDiagDOT-Reg.svg') format('svg'); /* Legacy iOS */
+}
+
+// regular
+@font-face {
+  font-family: 'Nimbus Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/NimbusSansDOT-Regu.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/NimbusSansDOT-Regu.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/NimbusSansDOT-Regu.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/NimbusSansDOT-Regu.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/NimbusSansDOT-Regu.otf') format('opentype'), /* Safari, Android, iOS */
+       url('../fonts/NimbusSansDOT-Regu.svg#OpenSans') format('svg'); /* Legacy iOS */
+}
+
+// regular italic
+@font-face {
+  font-family: 'Nimbus Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: url('../fonts/NimbusSansDOT-ReguItal.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/NimbusSansDOT-ReguItal.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/NimbusSansDOT-ReguItal.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/NimbusSansDOT-ReguItal.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/NimbusSansDOT-ReguItal.otf') format('opentype'), /* Safari, Android, iOS */
+       url('../fonts/NimbusSansDOT-ReguItal.svg#OpenSans') format('svg'); /* Legacy iOS */
+}
+
+// bold normal
+@font-face {
+  font-family: 'Nimbus Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/NimbusSansDOT-Bold.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/NimbusSansDOT-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/NimbusSansDOT-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/NimbusSansDOT-Bold.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/NimbusSansDOT-Bold.otf') format('opentype'), /* Safari, Android, iOS */
+       url('../fonts/NimbusSansDOT-Bold.svg#OpenSans') format('svg'); /* Legacy iOS */
+}
+
+// bold italic
+@font-face {
+  font-family: 'Nimbus Sans';
+  font-style: italic;
+  font-weight: 700;
+  src: url('../fonts/NimbusSansDOT-BoldItal.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/NimbusSansDOT-BoldItal.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/NimbusSansDOT-BoldItal.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/NimbusSansDOT-BoldItal.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/NimbusSansDOT-BoldItal.otf') format('opentype'), /* Safari, Android, iOS */
+       url('../fonts/NimbusSansDOT-BoldItal.svg#OpenSans') format('svg'); /* Legacy iOS */
+}
+
+// black normal
+@font-face {
+  font-family: 'Nimbus Sans';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../fonts/NimbusSansDOT-Blac.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/NimbusSansDOT-Blac.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/NimbusSansDOT-Blac.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/NimbusSansDOT-Blac.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/NimbusSansDOT-Blac.otf') format('opentype'), /* Safari, Android, iOS */
+       url('../fonts/NimbusSansDOT-Blac.svg#OpenSans') format('svg'); /* Legacy iOS */
+}
+
+// black italic
+@font-face {
+  font-family: 'Nimbus Sans';
+  font-style: italic;
+  font-weight: 900;
+  src: url('../fonts/NimbusSansDOT-BlacItal.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/NimbusSansDOT-BlacItal.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/NimbusSansDOT-BlacItal.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/NimbusSansDOT-BlacItal.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/NimbusSansDOT-BlacItal.otf') format('opentype'), /* Safari, Android, iOS */
+       url('../fonts/NimbusSansDOT-BlacItal.svg#OpenSans') format('svg'); /* Legacy iOS */
+}
+
 // main font family
-$font-stack: 'Helvetica-Neue', Helvetica, "Arial Black", Arial, sans-serif;
+$font-stack: 'Nimbus Sans', 'Helvetica-Neue', Helvetica, "Arial Black", Arial, sans-serif;

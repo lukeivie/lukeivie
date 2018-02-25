@@ -11,28 +11,67 @@
   border-bottom: 2px solid $black !important;
 }
 
-// font size utilities
-.fs-14 {
+// border radius
+.br-sm {
+  border-radius: 3px;
+}
+.br-md {
+  border-radius: 5px;
+}
+.br-lg {
+  border-radius: 8px;
+}
+.br-circle {
+  border-radius: 1000px;
+}
+
+// box shadow
+.bs-sm {
+  box-shadow: 0 1px 3px 0 transparentize($black, 0.85);
+}
+.bs-md {
+  box-shadow: 0 2px 8px 0 transparentize($black, 0.85);
+}
+.bs-lg {
+  box-shadow: 0 5px 16px 0 transparentize($black, 0.85);
+}
+
+// font family
+.ff-diagonal {
+  font-family: "Nimbus Sans Diagonal"; 
+}
+
+// font size
+.fs-xxs {
   font-size: 14px !important;
 }
-.fs-16 {
+.fs-xs {
   font-size: 16px !important;
 }
-.fs-24 {
-  font-size: 24px !important;
+.fs-sm {
+  font-size: 18px !important;
+}
+.fs-md {
+  font-size: 22px !important;
+}
+.fs-lg {
+  font-size: 32px !important;
+}
+.fs-xl {
+  font-size: 48px !important;
+}
+.fs-xxl {
+  font-size: 64px !important;
 }
 
 // font weight utilities
-.fw-4 {
+.fw-regular {
   font-weight: 400 !important;
 }
-.fw-6 {
-  font-weight: 600 !important;
-}
-.fw-7 {
+.fw-bold {
   font-weight: 700 !important;
 }
-.fw-9 {
+.fw-black {
   font-weight: 900 !important;
 }
 
