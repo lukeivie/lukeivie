@@ -1,50 +1,27 @@
 @import "fonts";
 @import "colors";
 @import "color_utils";
-@import "bg_utils";
 @import "utils";
 
 body {
-  font-family: $font-stack;
+  font-family: Helvetica-neue, Arial, sans-serif;
+  text-align: center;
+  font-size: 26px;
   background: $black;
 }
-
-h1, h2, h3, h4, h5, h6 {
-  color: $charcoal;
-  font-weight: 700;
-}
-
-p {
-  font-weight: 300;
-  line-height: 1.4;
-}
-
-.header {
-  box-shadow: 0 2px 5px 0 transparentize($black, 0.85);
-}
-
-.margin-top {
-  margin-top: 56px;
-}
-
-.yl-logo {
-  animation: breathe 6s infinite;
-}
-
-.spotify-embed {
-  border: 0 !important;
-}
-
-.artwork {
-  box-shadow: 0 0 10px 3px transparentize($black, 0.75);
-}
-
-.social-link {
-  color: $white;
+.link {
+  color: white;
+  opacity: 0.75;
+  font-size: 32px;
+  text-decoration: none;
   &:hover {
-    color: $cloud;
+    color: white;
+    opacity: 1;
+    text-decoration: none;
   }
-  &:active, &.active, &:focus {
-    color: $gray;
+  &:active {
+    color: white;
+    opacity: 0.5;
+    text-decoration: none;
   }
 }
