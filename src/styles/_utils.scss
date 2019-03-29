@@ -1,37 +1,87 @@
-@import "colors";
-
-// border utilities
-.bb-1-cloud {
-  border-bottom: 1px solid $cloud !important;
+.letter-spacing-1 {
+  letter-spacing: 1px !important;
 }
-.b-1-cloud {
-  border: 1px solid $cloud !important;
-}
-.bb-2-black {
-  border-bottom: 2px solid $black !important;
+.letter-spacing-2 {
+  letter-spacing: 2px !important;
 }
 
-// font size utilities
-.fs-14 {
-  font-size: 14px !important;
-}
-.fs-16 {
-  font-size: 16px !important;
+.cursor-pointer {
+  cursor: pointer !important;
 }
 
-// font weight utilities
-.fw-4 {
-  font-weight: 400 !important;
-}
-.fw-6 {
-  font-weight: 600 !important;
+.link-muted {
+  cursor: pointer;
+  color: $gray-400;
+  &:hover {
+    color: $gray-500;
+  }
+  &:active {
+    color: $gray-600;
+  }
 }
 
-// text utilities
-.text-uppercase-title {
-  font-family: "Proxima Nova", $font-stack;
-  font-weight: 300;
-  text-transform: uppercase;
-  letter-spacing: 8px;
-  color: $fog !important;
+.link-primary {
+  cursor: pointer;
+  color: $red;
+  border-bottom: 2px solid transparent;
+  &:hover {
+    color: darken($red, 10%);
+    border-bottom: 2px solid darken($red, 10%);
+  }
+  &:active {
+    color: darken($red, 20%);
+    border-bottom: 2px solid darken($red, 20%);
+  }
+}
+
+.link-danger {
+  cursor: pointer;
+  color: $danger;
+  &:hover {
+    color: lighten($danger, 10%);
+  }
+  &:active {
+    color: darken($danger, 10%);
+  }
+}
+
+.link-info {
+  cursor: pointer;
+  color: $info;
+  &:hover {
+    color: lighten($info, 10%);
+  }
+  &:active {
+    color: darken($info, 10%);
+  }
+}
+
+.bg-dark-gradient {
+  background: linear-gradient(50deg, $black, $gray-900);
+}
+
+.bg-light-gradient {
+  background: linear-gradient(360deg, $gray-300, $gray-200);
+}
+
+.o-75 {
+  opacity: 0.75;
+}
+.o-25 {
+  opacity: 0.25;
+}
+
+.border-bottom {
+  border-bottom-style: solid;
+}
+
+.border-width-2 {
+  border-width: 2px !important;
+}
+
+.border-color-gray-200 {
+  border-color: $gray-200 !important;
+}
+.border-color-gray-900 {
+  border-color: $gray-900 !important;
 }

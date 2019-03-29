@@ -1,0 +1,13 @@
+@import "./custom";
+@import "bootstrap/scss/bootstrap.scss";
+
+@import "./utils";
+@import "./backgrounds";
+
+body {
+  background: $black;
+}
+
+* {
+  font-family: "Sailec", "Avenir Next";
+}

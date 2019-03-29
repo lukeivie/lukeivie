@@ -1,37 +1,55 @@
-import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
-import { BrowserRouter as Router } from 'react-router-dom';
+import React, { Component } from "react";
+import ReactDOM from "react-dom";
+import { BrowserRouter as Router } from "react-router-dom";
+import { Container } from "reactstrap";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Panel from "./components/Panel";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import 'bootstrap/dist/css/bootstrap.css';
-import './styles/styles.css';
+import "@fortawesome/fontawesome-pro/js/all.js";
+import "bootstrap/scss/bootstrap.scss";
+import "./styles/index.scss";
 
 class App extends Component {
   render() {
     return (
       <div>
-        <div className="p-3 p-md-5">
-          <h1 style={{color: "white"}}>
-            <span role="img" aria-labelledby="palm">🌴</span><br/>
-            Coming Soon
-          </h1>
-          <p style={{color: "white", opacity: "0.75", fontSize: "16px"}}>
-            My site is currently under construction... follow me below to know when it goes live!
-          </p>
-          <p>
-            <a href="http://www.github.com/lukeivie" className="link" target="_blank" rel="noopener noreferrer">
-              <i className="fab fa-github mr-3" />
-            </a>
-            <a href="http://www.instagram.com/lukeivie" className="link" target="_blank" rel="noopener noreferrer">
-              <i className="fab fa-instagram mr-3" />
-            </a>
-            <a href="https://dribbble.com/lukeivie" className="link" target="_blank" rel="noopener noreferrer">
-              <i className="fab fa-dribbble" />
-            </a>
-          </p>
-        </div>
-        <div className="fixed-bottom p-2 font-italic" style={{color: "white", fontSize: "16px", opacity: "0.25"}}>
-          &copy; 2018 Luke Ivie
-        </div>
+        <Header />
+        <Panel background="black">
+          <div className="w-100 d-flex align-items-center justify-content-center flex-column">
+            <h1 className="text-white align-self-center text-uppercase font-italic font-weight-bold letter-spacing-2">
+              <FontAwesomeIcon
+                icon={["fas", "moon-stars"]}
+                className="text-secondary"
+              />{" "}
+              Late Night Luke
+            </h1>
+            <p className="text-white o-75">
+              Taste over trends. Functionality over aesthetic. Simple over
+              complex.
+            </p>
+          </div>
+        </Panel>
+        <Panel background="90s">
+          <div className="p-5 w-100 d-flex align-items-center justify-content-center">
+            <div className="bg-white rounded align-self-center justify-self-center px-3 py-2">
+              Late Night Luke
+            </div>
+          </div>
+        </Panel>
+        <Footer />
+        {/* <Container
+          className="d-flex flex-column align-items-center justify-content-center"
+          style={{ height: "100vh" }}
+        > */}
+        {/* <h1 className="display-4 text-white">Late Night Luke</h1>
+          <br />
+          <p className="text-white">
+            I don't believe in following trends, I believe in doing things with
+            style and taste. Be different.
+          </p> */}
+        {/* </Container> */}
       </div>
     );
   }
@@ -40,5 +58,6 @@ class App extends Component {
 ReactDOM.render(
   <Router>
     <App />
-  </Router>
-, document.getElementById('root'));
+  </Router>,
+  document.getElementById("root")
+);

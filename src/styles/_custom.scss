@@ -1,0 +1,131 @@
+$blue: #2f47f3;
+$green: #46d99c;
+$yellow: #ffe54b;
+
+$white: #ffffff;
+$gray-100: #fafbfc;
+$gray-200: #f5f7fa;
+$gray-300: #e6eaf2;
+$gray-400: #d5dbe6;
+$gray-500: #b3bbc9;
+$gray-600: #7f8899;
+$gray-700: #5e6675;
+$gray-800: #373f4f;
+$gray-900: #212836;
+$black: #08090d;
+
+$primary: $blue;
+$secondary: $yellow;
+$info: #36bcd6;
+
+.alert {
+  &.alert-danger {
+    border: 2px solid $primary;
+    background: transparentize($primary, 0.85);
+    color: $primary;
+  }
+  &.alert-success {
+    border: 2px solid $green;
+    background: transparentize($green, 0.85);
+    color: $green;
+  }
+}
+
+.dropdown-item {
+  &:active,
+  .active {
+    color: $black;
+    background-color: $gray-200 !important;
+  }
+  &:focus {
+    outline: 0 !important;
+  }
+}
+
+.text-muted {
+  color: $gray-500 !important;
+}
+
+.btn {
+  border-radius: 100px !important;
+  border-width: 2px !important;
+}
+.btn-primary {
+  box-shadow: 0 0.25rem 2rem transparentize($blue, 0.75);
+}
+.btn-light {
+  background: $white;
+  box-shadow: 0 0.25rem 1rem transparentize($gray-400, 0.3);
+  &:hover {
+    border-color: $gray-100;
+    background: $gray-100;
+  }
+  &:active,
+  &.active {
+    border-color: $gray-200 !important;
+    background: $gray-200 !important;
+  }
+}
+
+.shadow-lg {
+  box-shadow: 0 1rem 3rem transparentize($gray-400, 0.3) !important;
+}
+.shadow-md {
+  box-shadow: 0 0.5rem 1rem transparentize($gray-400, 0.7) !important;
+}
+.shadow-lg-top {
+  box-shadow: 0 -1rem 3rem transparentize($gray-400, 0.3) !important;
+}
+.shadow-md-top {
+  box-shadow: 0 -0.5rem 1rem transparentize($gray-400, 0.7) !important;
+}
+
+select.form-control {
+  border: 0 !important;
+  @extend .btn-light;
+}
+
+.form-control {
+  // border: 1px solid $white;
+  &::placeholder {
+    color: $gray-500;
+  }
+  // &:focus {
+  //   border: 1px solid $white;
+  // }
+}
+
+.navbar-dark {
+  .nav-link {
+    color: transparentize($white, 0.5);
+    &:hover {
+      color: transparentize($white, 0.25);
+    }
+    &.active,
+    &:active {
+      color: $white;
+    }
+    &.active,
+    &:active {
+      color: $white;
+      i,
+      svg {
+        color: $blue;
+      }
+    }
+  }
+}
+
+.navbar-light {
+  .nav-link {
+    color: $gray-500;
+    &.active,
+    &:active {
+      color: $gray-900;
+      i,
+      svg {
+        color: $blue !important;
+      }
+    }
+  }
+}
