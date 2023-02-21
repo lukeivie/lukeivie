@@ -4,4 +4,4 @@
 
 My preferred stack is TypeScript, React, and Prisma, and I'm a big fan of Next.js and TailwindCSS. I also dabble in Elixir, C#, and PHP.
 
-Currently at [DiscountMags.com](https://discountmags.com). Previously UI Engineer at [Openforce](https://oforce.com). Before that – UI Developer/UX Designer at [Tanga](https://www.tanga.com/).
+Currently Full-Stack Engineer at [DiscountMags.com](https://discountmags.com). Previously UI Engineer at [Openforce](https://oforce.com). Before that – UI Developer/UX Designer at [Tanga](https://www.tanga.com/).
