@@ -1,4 +1,4 @@
-[🌎 Website](https://lukeivie.com)   [🐦 Tweets](https://twitter.com/IvieLuke)   [💼 LinkedIn](https://linkedin.com/in/luke-ivie)
+[🌎 Website](https://lukeivie.com) • [🐦 Tweets](https://twitter.com/IvieLuke) • [💼 LinkedIn](https://linkedin.com/in/luke-ivie)
 
 **Hi there, I'm Luke!** I specialize in crafting simple, intuitive user experiences.
 
