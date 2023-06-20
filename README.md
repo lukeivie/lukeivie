@@ -8,4 +8,4 @@ I am highly passionate about technology and user experience. I believe every dec
 
 Self-improvement is my primary focus in life. I seek to always be learning new things, evolving my craft, and becoming a better engineer, designer and human-being.
 
-Currently Full-Stack Engineer at [DiscountMags.com](https://discountmags.com). Previously UI Engineer at [Openforce](https://oforce.com). Before that – UI Developer/UX Designer at [Tanga](https://www.tanga.com/).
+Currently Senior Frontend Software Engineer at [Namely](https://namely.com). Previously Full-Stack Engineer at [DiscountMags.com](https://discountmags.com). Before that – UI Engineer at [Openforce](https://oforce.com). And even further before that – UI Developer/UX Designer at [Tanga](https://www.tanga.com/).
